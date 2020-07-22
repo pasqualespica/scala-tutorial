@@ -1,8 +1,13 @@
-object Main extends App {
+
+// https://docs.scala-lang.org/tour/basics.html
+
+object Basics extends App {
       
   println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
-  println("Hello p7b scala tutorial !");
-  println(">>>>>>>>>>>>>>>>>>>>>>>>>>");;
+  println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
+  println("Basics !");
+  println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
+  println(">>>>>>>>>>>>>>>>>>>>>>>>>>");
 
 
   println("==================");
