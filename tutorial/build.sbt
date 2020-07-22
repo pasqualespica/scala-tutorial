@@ -73,4 +73,4 @@ libraryDependencies += "org.typelevel" %% "cats-core" % "2.0.0"
 
 // To learn more about multi-project builds, head over to the official sbt
 // documentation at http://www.scala-sbt.org/documentation.html
-mainClass in (Compile, run) := Some("Classes_")
+mainClass in (Compile, run) := Some("Traits_")
