@@ -228,7 +228,6 @@ object Higher_order_Functions extends App {
 
   // For example,
 
-  val numbers = List(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
   val numberFunc = numbers.foldLeft(List[Int]()) _
 
   val squares = numberFunc((xs, x) => xs :+ x*x)
@@ -236,5 +235,6 @@ object Higher_order_Functions extends App {
 
   val cubes = numberFunc((xs, x) => xs :+ x*x*x)
   println(cubes)  // List(1, 8, 27, 64, 125, 216, 343, 512, 729, 1000
+
 
 }
